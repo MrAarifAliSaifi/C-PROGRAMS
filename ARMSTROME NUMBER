@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int sum=0,m,no=0,i,n,cube=0;
+	printf("PLEASE ENTER THE NO:");
+	scanf("%d",&n);
+	m=n;
+	while(n>=1)
+	{
+		no=n%10;
+		cube=no*no*no;
+		sum=sum+cube;
+		n=n/10;
+	}
+	if(m==sum)
+	printf(" GIVEN NO IS ARMSTROME");
+	else
+	printf("GIVEN NO IS NOT ARMSTROME");
+}
