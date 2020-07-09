@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int a[10],j,i;
+	printf("PLEASE ENER THE ELEMENTS OF THE A ARRAY");
+	for(i=0;i<10;i++)
+	scanf("%d",&a[i]);
+	for(i=1;i<9;i++)
+	{
+		printf("\t%d",a[i]);
+	}
+	printf("\t%d",a[0]);
+}
