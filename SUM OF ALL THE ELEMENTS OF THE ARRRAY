@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int a[10],i,sum=0;
+	printf("PLEASE ENER THE ELEMENTS OF THE A ARRAY");
+	for(i=0;i<10;i++)
+	scanf("%d",&a[i]);
+	for(i=0;i<10;i++)
+	{
+	sum=sum+a[i];
+	}
+	printf("THE SMALLEST NO IN THE ARRAY IS:%d",sum);
+}
